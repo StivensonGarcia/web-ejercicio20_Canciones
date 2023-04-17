@@ -1,0 +1,83 @@
+body {
+    background-color: #1c1c1c;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+h1 {
+    font-size: 30px;
+    margin-top: 40px;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 10px;
+}
+
+h2 {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+
+
+
+input[type="number"],
+input[type="text"],
+input[type="date"] {
+    display: block;
+    margin-top: 1px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    background-color: #252525;
+    color: #fff;
+    width: 90% ;
+    text-align: center;
+    
+    
+}
+
+input[type="submit"] {
+    display: block;
+    margin-top: 20px;
+    padding: 5px;
+    border: none;
+    border-radius: 10px;
+    font-size: 19px;
+    background-color: #ff6600;
+    color: #fff;
+    cursor: pointer;
+    width: 50%;
+}
+
+input[type="submit"]:hover {
+    background-color: #111010;
+}
+form {
+    margin: 35px auto;
+    width: 400px;
+    background-color: #333;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  }
+  
+  label {
+    display: block;
+    margin-top: 10px;
+    font-size: 20px;
+    margin: 10px auto;
+  }
+
+  button {
+    display: block;
+margin: 20px auto 0;
+padding: 10px 10px;
+border-radius: 10px;
+border: none;
+background-color: #ff6a00;
+color: #fff;
+font-size: 13px;
+cursor: pointer;
+}

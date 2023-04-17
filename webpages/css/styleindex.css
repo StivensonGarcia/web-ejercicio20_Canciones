@@ -1,0 +1,100 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(to bottom, #292929, #0d0d0d);
+            color: #fffdfb;
+            font-family: Arial, sans-serif;
+    }
+
+        header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.8);
+            z-index: 999;
+          }
+          
+          .logo {
+            color: #fff;
+            font-size: 24px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+          }
+          
+          .login-container {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 400px;
+            padding: 40px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 10px;
+          }
+
+/* Estilos para el contenedor principal */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 50px 20px;
+}
+
+/* Estilos para el título */
+h1 {
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+
+
+/* Estilos para cada opción */
+li {
+  margin: 10px;
+  text-align: center;
+  color: #f8f4f4;
+}
+
+/* Estilos para los enlaces */
+
+
+li:hover {
+  color: #ff6600;
+}
+
+/* Estilos para el botón de Loguearse */
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #1b1b1b;
+  color: #fff;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.2s;
+}
+
+.button:hover {
+  background-color: #333;
+}
+
+
+
+
+
+
+
+
+       
+        
+
+
+
+       
+            
